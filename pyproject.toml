@@ -13,6 +13,13 @@ langgraph = "^0.2.60"
 langchain-ollama = "^0.2.2"
 langchain-community = "^0.3.13"
 pytest = "^8.3.4"
+ipykernel = "^6.29.5"
+langgraph-checkpoint-sqlite = "^2.0.1"
+langsmith = "^0.2.6"
+notebook = "^7.3.2"
+tavily-python = "^0.5.0"
+wikipedia = "^1.4.0"
+langgraph-cli = {extras = ["inmem"], version = "^0.1.65"}
 
 
 [build-system]
