@@ -1,7 +1,10 @@
 {
     "dependencies": ["pyproject.toml"],
     "graphs": {
-        "simple":"./langgraph_academy/module_1/simple/simple.py:graph"
+        "simple":"./langgraph_academy/module_1/simple/simple.py:graph",
+        "chain":"./langgraph_academy/module_1/chain/chain.py:graph",
+        "router":"./langgraph_academy/module_1/router/router.py:graph",
+        "react":"./langgraph_academy/module_1/agent/agent.py:graph"
     },
     "env": ".env",
     "python_version": "3.12"
