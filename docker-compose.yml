@@ -20,6 +20,21 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+  postgres:
+    container_name: psql_academy
+    image: postgres
+    restart: always
+    env_file:
+      - db.env
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - ollama-docker
+
+volumes:
+  data:
 
 networks:
   ollama-docker:
