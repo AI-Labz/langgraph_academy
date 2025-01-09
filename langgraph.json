@@ -4,7 +4,9 @@
         "simple":"./langgraph_academy/module_1/l1_simple/simple.py:graph",
         "chain":"./langgraph_academy/module_1/l2_chain/chain.py:graph",
         "router":"./langgraph_academy/module_1/l3_router/router.py:graph",
-        "react":"./langgraph_academy/module_1/l4_agent/agent.py:graph"
+        "react":"./langgraph_academy/module_1/l4_agent/agent.py:graph",
+        "agent":"./langgraph_academy/module_3/l3_edit_state/edit_state.py:graph",
+        "interrupt":"./langgraph_academy/module_3/l4_dynamic_breakpoints/dynamic_breakpoints.py:graph"
     },
     "env": ".env",
     "python_version": "3.12"
